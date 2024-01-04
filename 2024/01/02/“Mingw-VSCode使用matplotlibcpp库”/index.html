@@ -11,7 +11,116 @@ gtag('config', 'G-QNJLYTXRJV');</script><meta http-equiv="Cache-Control" content
     noSupport: 'The browser does not support'
   },
   hexoVersion: '7.0.0-rc2'
-} </script><meta name="generator" content="Hexo 7.0.0-rc2"></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text"> 背景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.</span> <span class="toc-text"> 实现</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9C%A8visual-studio-code-%E4%B8%AD%E4%BD%BF%E7%94%A8-vcpkg"><span class="toc-number">2.1.</span> <span class="toc-text"> 在Visual Studio Code 中使用 vcpkg</span></a></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://assets1.cbsnewsstatic.com/hub/i/r/2016/10/13/88414623-11ec-4173-bfe8-2c03e85a4545/thumbnail/640x640/22154544843ef6aea58f9cf8d14bb545/7-blonde-on-blonde.png?v=08aa43fa812a9e12e93282c47f58b17f"></div><div class="author-info__name text-center">Cheese Neo</div><div class="author-info__description text-center"></div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/Cheeseofneo">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">4</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://149357032.v2.pressablecdn.com/wp-content/uploads/2019/08/C1.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">The Delicious Cheese of Neo</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> Search</span></a></span></div><div id="post-info"><div id="post-title">“Mingw+VSCode使用matplotlibcpp库”</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2024-01-02</time><div class="post-meta-wordcount"><span>Word count: </span><span class="word-count">800</span><span class="post-meta__separator">|</span><span>Reading time: 2 min</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h3 id="背景"><a class="markdownIt-Anchor" href="#背景"></a> 背景</h3>
+} </script><meta name="generator" content="Hexo 7.0.0-rc2"></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text"> 背景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.</span> <span class="toc-text"> 实现</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9C%A8visual-studio-code-%E4%B8%AD%E4%BD%BF%E7%94%A8-vcpkg"><span class="toc-number">2.1.</span> <span class="toc-text"> 在Visual Studio Code 中使用 vcpkg</span></a></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://assets1.cbsnewsstatic.com/hub/i/r/2016/10/13/88414623-11ec-4173-bfe8-2c03e85a4545/thumbnail/640x640/22154544843ef6aea58f9cf8d14bb545/7-blonde-on-blonde.png?v=08aa43fa812a9e12e93282c47f58b17f"></div><div class="author-info__name text-center">Cheese Neo</div><div class="author-info__description text-center"></div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/Cheeseofneo">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">4</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://149357032.v2.pressablecdn.com/wp-content/uploads/2019/08/C1.jpg)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">The Delicious Cheese of Neo</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> Search</span></a></span></div><div id="post-info"><div id="post-title">“Mingw+VSCode使用matplotlibcpp库”</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2024-01-02</time><div class="post-meta-wordcount"><span>Word count: </span><span class="word-count">76</span><span class="post-meta__separator">|</span><span>Reading time: 1 min</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><script>calendar({monthLang: 'en', dayLang: 'en', title: '活动日历'})</script><div class="article-container" id="post-content">
+<div id="calendar_box" style="width:100%;overflow-x:auto;overflow-y:hidden;">
+<div id="calendar" style="width: 600px;height:165px;"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/echarts@4.8.0/dist/echarts.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    function dateFormat(date){
+      date = new Date(date)
+      return date.getFullYear() + '-' + (date.getMonth() + 1).toString().padStart(2, '0') + '-' + date.getDate().toString().padStart(2, '0')
+    }
+    let calendarChart = echarts.init(document.getElementById('calendar'));
+    let endDate = new Date().getTime()
+    let startDate = new Date(endDate - 40*7*24*3600*1000).getTime()
+    let startDay = Math.ceil(startDate/(24*3600*1000))
+    let endDay = Math.ceil(endDate/(24*3600*1000))
+
+    let commitData = {"2024-01-02":1}
+    let seriesData = []
+
+    for(let i = startDay;i <= endDay;i++){
+      let date = i*24*3600*1000
+      let formatDate = dateFormat(date)
+      let times = commitData[formatDate] || 0
+      seriesData.push([formatDate, times])
+    }
+    let option = {
+      title: {
+        text: "活动日历",
+        x: "center"
+      },
+      backgroundColor: "#f9f9f9",
+      tooltip: {
+        padding: 10,
+        backgroundColor: "#555",
+        borderColor: "#777",
+        borderWidth: 1,
+        formatter: function(a) {
+          var b = a.value;
+          return '<div style="font-size: 14px;">' + b[0] + "：" + b[1] + "</div>"
+        }
+      },
+      visualMap: {
+        show: !1,
+        showLabel: !0,
+        min: 0,
+        max: 4,
+        calculable: !1,
+        inRange: {
+          symbol: "rect",
+          color: ["#ebedf0", "#c6e48b", "#7bc96f", "#239a3b", "#196127"]
+        },
+        itemWidth: 12,
+        itemHeight: 12,
+        orient: "horizontal",
+        left: "center",
+        top: 0
+      },
+      calendar: [{
+        top: 50,
+        left: "center",
+        range: [dateFormat(startDate), dateFormat(endDate)],
+        cellSize: [13, 13],
+        splitLine: {
+          show: !1
+        },
+        name: {
+          textStyle: {
+            color: "#3C4858"
+          }
+        },
+        itemStyle: {
+          borderColor: "#fff",
+          borderWidth: 2
+        },
+        yearLabel: {
+          show: !1
+        },
+        monthLabel: {
+          nameMap: "cn",
+          fontSize: 11,
+          color: "#3C4858"
+        },
+        dayLabel: {
+          formatter: "{start} 1st",
+          nameMap: "cn",
+          fontSize: 11,
+          color: "#3C4858"
+        }
+      }],
+      series: [{
+        type: "heatmap",
+        coordinateSystem: "calendar",
+        calendarIndex: 0,
+        data: seriesData
+      }]
+    };
+
+    calendarChart.setOption(option);
+
+    let box = document.getElementById("calendar_box")
+    let child = document.getElementById("calendar")
+    window.addEventListener('load',function(){
+        box.scrollLeft = (child.clientWidth - box.clientWidth) / 2
+    })
+
+  })();
+</script>
+
+<h3 id="背景"><a class="markdownIt-Anchor" href="#背景"></a> 背景</h3>
 <p>在C<ins>中常需要处理数据并进行可视化，而标准库中并没有提供绘图的工具，因此需要借助外部库来完成。目前来看Matplotlibcpp实现较为容易，因为是调用python库的API来完成的。本文讲述使用Vscode+MIngw的C</ins>开发环境下如何使用Matplotlib库。</p>
 <h3 id="实现"><a class="markdownIt-Anchor" href="#实现"></a> 实现</h3>
 <p><strong>1. Vscode和Mingw的安装</strong><br />
